@@ -1,9 +1,9 @@
 class Usuario {
-    constructor(nombre, apellido = {}, libros, mascotas = []) {
-        this.nombre = nombre,
-        this.apellido = apellido,
-        this.libros = libros,
-        this.mascotas = mascotas;
+    constructor(nombre, apellido, libros = [], mascotas = []) {
+        this.nombre = nombre
+        this.apellido = apellido
+        this.libros = libros
+        this.mascotas = mascotas    
     }
 
     getFullName() {
@@ -19,11 +19,12 @@ class Usuario {
     }
 
     addBooks(nombre, autor) {
-        this.libros.push({
-            nombre,
-            autor
+        this.libros.push ({
+            nameBook: nombre,
+            autor: autor
         });
     }
+
 
     getBookNames() {
         return this.libros.map( libro => libro.nameBook)
