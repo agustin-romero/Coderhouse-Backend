@@ -52,5 +52,5 @@ console.log(user.getFullName());
 user.addMascotas("Tortuga");
 console.log(user.countMascotas());
 
-user.addBooks({ nameBook: "Mi Planta de Naranja Lima", autor: "José Mauro de Vasconcelos" });
+user.addBooks( "Mi Planta de Naranja Lima", "José Mauro de Vasconcelos" )
 console.log(user.getBookNames());
