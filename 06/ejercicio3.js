@@ -62,9 +62,9 @@ class Contenedor {
 
 // Instancio y guardo los productos nuevos
 const contenedor = new Contenedor()
-contenedor.save('cartuchera', 100, 'www.dsfsd.com', contenedor)
-contenedor.save('lapiz', 20, 'www.dsfsdsss.com', contenedor)
-contenedor.save('hoja', 5, 'www.dsfsd111.com',contenedor)
+contenedor.save('monitor', 100, 'https://ejemplo.com/data/img/img.png', contenedor)
+contenedor.save('mouse', 20, 'https://ejemplo.com/data/img/img.png', contenedor)
+contenedor.save('teclado', 50, 'https://ejemplo.com/data/img/img.png',contenedor)
 
 
 
